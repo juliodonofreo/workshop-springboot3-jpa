@@ -93,10 +93,6 @@ public class Order implements Serializable{
 		return items;
 	}
 
-	public static long getSerialversionuid() {
-		return serialVersionUID;
-	}
-
 	@Override
 	public boolean equals(Object obj) {
 		if (this == obj)
