@@ -86,7 +86,7 @@ public class User implements Serializable{
 		this.password = password;
 	}
 	
-	private List<Order> getOrders() {
+	public List<Order> getOrders() {
 		return orders;
 	}
 
