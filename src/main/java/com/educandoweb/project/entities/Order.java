@@ -105,6 +105,11 @@ public class Order implements Serializable{
 	public Set<OrderItem> getItems() {
 		return items;
 	}
+	
+	public Double getTotal() {
+		double sum = items.stream().map(OrderItem::getSubTotal).reduce(0.0, Double::sum);
+		return sum;
+	}
 
 	@Override
 	public boolean equals(Object obj) {
