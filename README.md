@@ -8,12 +8,11 @@ do professor nelio alves.
 
 ## Objetivos
 1. Criar projeto Spring Boot Java;
-2. Implementar modelo de domínio
-3. Estruturar camadas lógicas: resource, service, repository;
-4. Configurar banco de dados de teste (H2);
-5. Povoar o banco de dados;
-6. CRUD - Create, Retrieve, Update, Delete;
-7. Tratamento de exceções.
+2. Estruturar camadas lógicas: resource, service, repository;
+3. Configurar banco de dados de teste (H2);
+4. Povoar o banco de dados;
+5. CRUD - Create, Retrieve, Update, Delete;
+6. Tratamento de exceções.
 
 ## Tecnologias utilizadas
 1. Spring boot;
